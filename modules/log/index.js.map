@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/log/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,cAAc,CAAC;AAC5C,OAAO,EAAE,aAAa,EAAE,MAAM,eAAe,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { SkyLogModule } from './log.module';\nexport { SkyLogService } from './log.service';\n"]}

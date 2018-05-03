@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/search/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,oBAAoB,CAAC;AACxD,OAAO,EAAE,eAAe,EAAE,MAAM,iBAAiB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { SkySearchComponent } from './search.component';\nexport { SkySearchModule } from './search.module';\n"]}

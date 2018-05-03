@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../.srctemp/modules/flyout/types/flyout-message-type.ts"],"names":[],"mappings":"AAAA,MAAM,CAAN,IAAY,oBAGX;AAHD,WAAY,oBAAoB;IAC9B,+DAAQ,CAAA;IACR,iEAAS,CAAA;AACX,CAAC,EAHW,oBAAoB,KAApB,oBAAoB,QAG/B","file":"flyout-message-type.js","sourceRoot":"","sourcesContent":["export enum SkyFlyoutMessageType {\n  Open = 0,\n  Close = 1\n}\n"]}

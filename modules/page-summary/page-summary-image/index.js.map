@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../.srctemp/modules/page-summary/page-summary-image/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,4BAA4B,EAAE,MAAM,gCAAgC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { SkyPageSummaryImageComponent } from './page-summary-image.component';\n"]}

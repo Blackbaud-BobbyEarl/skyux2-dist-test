@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/wait/index.ts"],"names":[],"mappings":"AAAA,cAAc,uBAAuB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './wait-demo.component';\n"]}

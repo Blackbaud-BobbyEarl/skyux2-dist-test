@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/label/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,mBAAmB,CAAC;AACtD,OAAO,EAAE,cAAc,EAAE,MAAM,gBAAgB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { SkyLabelComponent } from './label.component';\nexport { SkyLabelModule } from './label.module';\n"]}

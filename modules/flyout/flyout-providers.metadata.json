@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{"SKY_FLYOUT_PROVIDERS":[{"__symbolic":"reference","module":"./flyout-adapter.service","name":"SkyFlyoutAdapterService"}]}},{"__symbolic":"module","version":1,"metadata":{"SKY_FLYOUT_PROVIDERS":[{"__symbolic":"reference","module":"./flyout-adapter.service","name":"SkyFlyoutAdapterService"}]}}]

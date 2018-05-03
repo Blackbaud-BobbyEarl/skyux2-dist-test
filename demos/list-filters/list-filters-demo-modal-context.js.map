@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/list-filters/list-filters-demo-modal-context.ts"],"names":[],"mappings":"AAAA;IAAA;IAEA,CAAC;IAAD,qCAAC;AAAD,CAFA,AAEC,IAAA","file":"list-filters-demo-modal-context.js","sourceRoot":"","sourcesContent":["export class SkyListFiltersModalDemoContext {\n  public appliedFilters: any[];\n}\n"]}

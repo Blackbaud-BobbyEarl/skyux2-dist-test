@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/window/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,MAAM,sBAAsB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { SkyWindowRefService } from './window-ref.service';\n"]}

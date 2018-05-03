@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/page-summary/index.ts"],"names":[],"mappings":"AAAA,cAAc,+BAA+B,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './page-summary-demo.component';\n"]}

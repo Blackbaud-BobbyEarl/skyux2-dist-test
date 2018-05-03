@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../.srctemp/modules/list/state/toolbar/set-type.action.ts"],"names":[],"mappings":"AAAA;IACE,kCAAmB,IAAY;QAAZ,SAAI,GAAJ,IAAI,CAAQ;IAAG,CAAC;IACrC,+BAAC;AAAD,CAFA,AAEC,IAAA","file":"set-type.action.js","sourceRoot":"","sourcesContent":["export class ListToolbarSetTypeAction {\n  constructor(public type: string) {}\n}\n"]}

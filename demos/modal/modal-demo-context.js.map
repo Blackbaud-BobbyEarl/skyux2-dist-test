@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/modal/modal-demo-context.ts"],"names":[],"mappings":"AAAA;IAAA;IAGA,CAAC;IAAD,0BAAC;AAAD,CAHA,AAGC,IAAA","file":"modal-demo-context.js","sourceRoot":"","sourcesContent":["export class SkyModalDemoContext {\n  public valueA: string;\n  public eventMessage?: string;\n}\n"]}

@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./list-data-in-memory.provider","export":["SkyListInMemoryDataProvider"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./list-data-in-memory.provider","export":["SkyListInMemoryDataProvider"]}]}]

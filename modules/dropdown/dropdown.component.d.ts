@@ -1,0 +1,36 @@
+import { OnDestroy, OnInit } from '@angular/core';
+import { Subject } from 'rxjs/Subject';
+import 'rxjs/add/operator/takeUntil';
+import { SkyPopoverAlignment, SkyPopoverTrigger } from '../popover';
+import { SkyWindowRefService } from '../window';
+import { SkyDropdownMessage, SkyDropdownTriggerType } from './types';
+export declare class SkyDropdownComponent implements OnInit, OnDestroy {
+    private windowRef;
+    alignment: SkyPopoverAlignment;
+    buttonStyle: string;
+    buttonType: string;
+    label: string;
+    dismissOnBlur: boolean;
+    messageStream: Subject<SkyDropdownMessage>;
+    title: string;
+    trigger: SkyDropdownTriggerType;
+    private triggerButton;
+    private popover;
+    private ngUnsubscribe;
+    private isKeyboardActive;
+    private isOpen;
+    private _buttonType;
+    private _buttonStyle;
+    private _label;
+    private _trigger;
+    constructor(windowRef: SkyWindowRefService);
+    ngOnInit(): void;
+    ngOnDestroy(): void;
+    onKeyDown(event: KeyboardEvent): void;
+    onPopoverOpened(): void;
+    onPopoverClosed(): void;
+    getPopoverTriggerType(): SkyPopoverTrigger;
+    private handleIncomingMessages(message);
+    private sendMessage(type);
+    private positionPopover();
+}

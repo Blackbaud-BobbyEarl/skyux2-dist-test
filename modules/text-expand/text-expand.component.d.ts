@@ -1,0 +1,36 @@
+import { ElementRef, AfterContentInit } from '@angular/core';
+import { SkyResourcesService } from '../resources';
+import { SkyModalService } from '../modal';
+import { SkyTextExpandAdapterService } from './text-expand-adapter.service';
+export declare class SkyTextExpandComponent implements AfterContentInit {
+    private resources;
+    private modalService;
+    private textExpandAdapter;
+    private _maxLength;
+    text: string;
+    truncateNewlines: boolean;
+    maxLength: number;
+    maxExpandedLength: number;
+    maxExpandedNewlines: number;
+    expandModalTitle: string;
+    containerEl: ElementRef;
+    textEl: ElementRef;
+    isExpanded: boolean;
+    expandable: boolean;
+    buttonText: string;
+    private seeMoreText;
+    private seeLessText;
+    private textToShow;
+    private collapsedText;
+    private expandedText;
+    private newlineCount;
+    constructor(resources: SkyResourcesService, modalService: SkyModalService, textExpandAdapter: SkyTextExpandAdapterService);
+    textExpand(): void;
+    animationEnd(): void;
+    ngAfterContentInit(): void;
+    private setContainerMaxHeight();
+    private setup(value);
+    private getNewlineCount(value);
+    private getTruncatedText(value, length);
+    private animateText(previousText, newText, expanding);
+}

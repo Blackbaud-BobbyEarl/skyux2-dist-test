@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/definition-list/index.ts"],"names":[],"mappings":"AAAA,cAAc,kCAAkC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './definition-list-demo.component';\n"]}

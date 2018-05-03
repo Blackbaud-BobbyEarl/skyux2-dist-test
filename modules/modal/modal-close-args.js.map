@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/modal/modal-close-args.ts"],"names":[],"mappings":"AAAA;IAGE;IAAe,CAAC;IAClB,wBAAC;AAAD,CAJA,AAIC,IAAA","file":"modal-close-args.js","sourceRoot":"","sourcesContent":["export class SkyModalCloseArgs {\n  public reason: string;\n  public data: any;\n  constructor() {}\n}\n"]}

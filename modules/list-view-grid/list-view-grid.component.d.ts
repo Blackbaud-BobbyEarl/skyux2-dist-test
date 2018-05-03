@@ -1,0 +1,38 @@
+import { AfterContentInit, OnDestroy } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/take';
+import 'rxjs/add/operator/takeUntil';
+import { SkyGridComponent, SkyGridColumnModel } from '../grid';
+import { ListItemModel, ListSortFieldSelectorModel, ListStateDispatcher, ListState } from '../list/state';
+import { ListViewComponent } from '../list/list-view.component';
+import { GridState, GridStateDispatcher } from './state';
+export declare class SkyListViewGridComponent extends ListViewComponent implements AfterContentInit, OnDestroy {
+    private dispatcher;
+    gridState: GridState;
+    gridDispatcher: GridStateDispatcher;
+    name: string;
+    displayedColumns: Array<string> | Observable<Array<string>>;
+    hiddenColumns: Array<string> | Observable<Array<string>>;
+    fit: string;
+    width: number | Observable<number>;
+    height: number | Observable<number>;
+    gridComponent: SkyGridComponent;
+    columns: Observable<Array<SkyGridColumnModel>>;
+    selectedColumnIds: Observable<Array<string>>;
+    items: Observable<ListItemModel[]>;
+    loading: Observable<boolean>;
+    sortField: Observable<ListSortFieldSelectorModel>;
+    private searchFunction;
+    private columnComponents;
+    private ngUnsubscribe;
+    constructor(state: ListState, dispatcher: ListStateDispatcher, gridState: GridState, gridDispatcher: GridStateDispatcher);
+    ngAfterContentInit(): void;
+    ngOnDestroy(): void;
+    columnIdsChanged(selectedColumnIds: Array<string>): void;
+    sortFieldChanged(sortField: ListSortFieldSelectorModel): void;
+    onViewActive(): void;
+    private handleColumnChange();
+    private getGridItems();
+    private getSelectedIds();
+}

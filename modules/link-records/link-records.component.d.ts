@@ -1,0 +1,37 @@
+import { AfterContentInit, OnDestroy, OnInit, QueryList, TemplateRef } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/distinctUntilChanged';
+import { SkyLinkRecordsState, SkyLinkRecordsStateDispatcher } from './state';
+import { SkyLinkRecordsMatchModel } from './state/matches/match.model';
+import { SkyLinkRecordsItemModel } from './link-records-item.model';
+import { SkyLinkRecordsItemTitleComponent } from './link-records-item-title.component';
+import { SkyLinkRecordsItemContentComponent } from './link-records-item-content.component';
+import { SkyLinkRecordsMatchContentComponent } from './link-records-match-content.component';
+import { SkyLinkRecordsNoMatchContentComponent } from './link-records-nomatch-content.component';
+export declare class SkyLinkRecordsComponent implements OnInit, AfterContentInit, OnDestroy {
+    private state;
+    private dispatcher;
+    items: Observable<Array<any>>;
+    matches: Observable<Array<SkyLinkRecordsMatchModel>>;
+    matchFields: Observable<Array<any>>;
+    itemTemplate: TemplateRef<any>;
+    matchTemplate: TemplateRef<any>;
+    noMatchTemplate: TemplateRef<any>;
+    itemTitleTemplate: TemplateRef<any>;
+    keyIdSelector: string;
+    selectedByDefault: boolean;
+    showNewFieldValues: boolean;
+    nodeItemTitle: QueryList<SkyLinkRecordsItemTitleComponent>;
+    nodeItem: QueryList<SkyLinkRecordsItemContentComponent>;
+    nodeMatch: QueryList<SkyLinkRecordsMatchContentComponent>;
+    nodeNoMatch: QueryList<SkyLinkRecordsNoMatchContentComponent>;
+    private subscriptions;
+    constructor(state: SkyLinkRecordsState, dispatcher: SkyLinkRecordsStateDispatcher);
+    ngOnInit(): void;
+    ngAfterContentInit(): void;
+    ngOnDestroy(): void;
+    trackByRecordKey(index: number, item: SkyLinkRecordsItemModel): string;
+    readonly records: Observable<SkyLinkRecordsItemModel[]>;
+    readonly results: Observable<any>;
+    readonly recordMatches: Observable<any>;
+}

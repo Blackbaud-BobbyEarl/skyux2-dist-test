@@ -1,0 +1,32 @@
+import { ElementRef, AfterViewInit } from '@angular/core';
+import { SkyModalHostService } from './modal-host.service';
+import { SkyModalConfiguration } from './modal-configuration';
+import { SkyModalComponentAdapterService } from './modal-component-adapter.service';
+import { SkyWindowRefService } from '../window';
+export declare class SkyModalComponent implements AfterViewInit {
+    private hostService;
+    private config;
+    private elRef;
+    private windowRef;
+    private componentAdapter;
+    modalState: string;
+    modalContentId: string;
+    modalHeaderId: string;
+    tiledBody: boolean;
+    readonly modalZIndex: number;
+    readonly modalFullPage: boolean;
+    readonly isSmallSize: boolean;
+    readonly isMediumSize: boolean;
+    readonly isLargeSize: boolean;
+    readonly isTiledBody: boolean;
+    readonly ariaDescribedBy: string;
+    readonly ariaLabelledBy: string;
+    readonly helpKey: string;
+    constructor(hostService: SkyModalHostService, config: SkyModalConfiguration, elRef: ElementRef, windowRef: SkyWindowRefService, componentAdapter: SkyModalComponentAdapterService);
+    onDocumentKeyDown(event: KeyboardEvent): void;
+    ngAfterViewInit(): void;
+    helpButtonClick(): void;
+    closeButtonClick(): void;
+    windowResize(): void;
+    private isSizeEqual(actualSize, size);
+}

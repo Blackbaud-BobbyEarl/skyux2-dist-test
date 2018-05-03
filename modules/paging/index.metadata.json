@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./paging.component","export":["SkyPagingComponent"]},{"from":"./paging.module","export":["SkyPagingModule"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./paging.component","export":["SkyPagingComponent"]},{"from":"./paging.module","export":["SkyPagingModule"]}]}]

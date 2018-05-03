@@ -1,0 +1,37 @@
+import { AfterViewInit, OnDestroy } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/takeUntil';
+import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/take';
+import { ListViewComponent } from '../list/list-view.component';
+import { ListItemModel } from '../list/state/items/item.model';
+import { ListState, ListStateDispatcher } from '../list/state';
+import { ChecklistState, ChecklistStateDispatcher } from './state';
+import { ListViewChecklistItemModel } from './state/items/item.model';
+export declare class SkyListViewChecklistComponent extends ListViewComponent implements AfterViewInit, OnDestroy {
+    private dispatcher;
+    private checklistState;
+    private checklistDispatcher;
+    name: string;
+    search: (data: any, searchText: string) => boolean;
+    labelFieldSelector: string;
+    description: string;
+    selectMode: string;
+    private selectAllTemplate;
+    private clearSelectionsTemplate;
+    private hasSelectToolbarItems;
+    private ngUnsubscribe;
+    private _selectMode;
+    constructor(state: ListState, dispatcher: ListStateDispatcher, checklistState: ChecklistState, checklistDispatcher: ChecklistStateDispatcher);
+    onViewActive(): void;
+    ngAfterViewInit(): void;
+    ngOnDestroy(): void;
+    readonly items: Observable<ListViewChecklistItemModel[]>;
+    searchFunction(): (data: any, searchText: string) => boolean;
+    itemSelected(id: string): Observable<boolean>;
+    setItemSelection(item: ListItemModel, event: any): void;
+    singleSelectRowClick(item: ListItemModel): void;
+    clearSelections(): void;
+    selectAll(): void;
+    private updateActions();
+}

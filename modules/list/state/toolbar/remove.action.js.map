@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../.srctemp/modules/list/state/toolbar/remove.action.ts"],"names":[],"mappings":"AAAA;IACE,sCAAmB,GAAa;QAAb,QAAG,GAAH,GAAG,CAAU;IAAG,CAAC;IACtC,mCAAC;AAAD,CAFA,AAEC,IAAA","file":"remove.action.js","sourceRoot":"","sourcesContent":["export class ListToolbarItemsRemoveAction {\n  constructor(public ids: string[]) {}\n}\n"]}

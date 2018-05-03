@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/list-paging/index.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,sBAAsB,EACvB,MAAM,yBAAyB,CAAC;AACjC,OAAO,EACL,mBAAmB,EACpB,MAAM,sBAAsB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export {\n  SkyListPagingComponent\n} from './list-paging.component';\nexport {\n  SkyListPagingModule\n} from './list-paging.module';\n"]}

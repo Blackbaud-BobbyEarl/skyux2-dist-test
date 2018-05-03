@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/modules/list-data-provider-in-memory/index.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,2BAA2B,EAC5B,MAAM,gCAAgC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export {\n  SkyListInMemoryDataProvider\n} from './list-data-in-memory.provider';\n"]}

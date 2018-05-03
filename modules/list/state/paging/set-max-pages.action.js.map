@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../.srctemp/modules/list/state/paging/set-max-pages.action.ts"],"names":[],"mappings":"AAAA;IACE,qCAAmB,QAAgB;QAAhB,aAAQ,GAAR,QAAQ,CAAQ;IACnC,CAAC;IACH,kCAAC;AAAD,CAHA,AAGC,IAAA","file":"set-max-pages.action.js","sourceRoot":"","sourcesContent":["export class ListPagingSetMaxPagesAction {\n  constructor(public maxPages: number) {\n  }\n}\n"]}

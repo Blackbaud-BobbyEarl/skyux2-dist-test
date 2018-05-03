@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../.srctemp/modules/list/state/views/set-active.action.ts"],"names":[],"mappings":"AAAA;IACE,kCAAmB,IAAY;QAAZ,SAAI,GAAJ,IAAI,CAAQ;IAAG,CAAC;IACrC,+BAAC;AAAD,CAFA,AAEC,IAAA","file":"set-active.action.js","sourceRoot":"","sourcesContent":["export class ListViewsSetActiveAction {\n  constructor(public view: string) {}\n}\n"]}

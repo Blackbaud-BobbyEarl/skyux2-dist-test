@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/search/index.ts"],"names":[],"mappings":"AAAA,cAAc,yBAAyB,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './search-demo.component';\n"]}

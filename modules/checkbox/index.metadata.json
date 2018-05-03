@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./checkbox.component","export":["SkyCheckboxComponent"]},{"from":"./checkbox.module","export":["SkyCheckboxModule"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./checkbox.component","export":["SkyCheckboxComponent"]},{"from":"./checkbox.module","export":["SkyCheckboxModule"]}]}]

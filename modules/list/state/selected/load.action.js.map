@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../.srctemp/modules/list/state/selected/load.action.ts"],"names":[],"mappings":"AAAA;IACE,gCAAmB,KAAoB;QAApB,UAAK,GAAL,KAAK,CAAe;IAAG,CAAC;IAC7C,6BAAC;AAAD,CAFA,AAEC,IAAA","file":"load.action.js","sourceRoot":"","sourcesContent":["export class ListSelectedLoadAction {\n  constructor(public items: Array<string>) {}\n}\n"]}

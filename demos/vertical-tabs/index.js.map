@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/vertical-tabs/index.ts"],"names":[],"mappings":"AAAA,cAAc,gCAAgC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './vertical-tabs-demo.component';\n"]}

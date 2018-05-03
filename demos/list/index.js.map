@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/list/index.ts"],"names":[],"mappings":"AAAA,cAAc,uBAAuB,CAAC;AACtC,cAAc,gCAAgC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export * from './list-demo.component';\nexport * from './list-provider-demo.component';\n"]}

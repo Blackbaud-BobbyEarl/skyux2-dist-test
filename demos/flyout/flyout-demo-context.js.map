@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../.srctemp/demos/flyout/flyout-demo-context.ts"],"names":[],"mappings":"AAAA;IAAA;IAGA,CAAC;IAAD,wBAAC;AAAD,CAHA,AAGC,IAAA","file":"flyout-demo-context.js","sourceRoot":"","sourcesContent":["export class FlyoutDemoContext {\n  public id: number;\n  public name: string;\n}\n"]}
